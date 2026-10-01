@@ -21,21 +21,6 @@ button { font: inherit; border: none; background: none; cursor: pointer; }
   --shadow: 0 20px 50px -25px rgba(15, 31, 61, 0.18);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0a0f1f;
-    --bg-alt: #0f1630;
-    --surface: #141b36;
-    --border: #28315a;
-    --text: #eef2ff;
-    --text-muted: #a3aed1;
-    --accent: #5fc1ff;
-    --accent-2: #a78bfa;
-    --accent-grad: linear-gradient(135deg, #5fc1ff 0%, #a78bfa 100%);
-    --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.5);
-  }
-}
-
 body {
   background: var(--bg);
   color: var(--text);
@@ -76,6 +61,10 @@ h1, h2, h3 {
   background: color-mix(in srgb, var(--bg) 85%, transparent);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
+}
+
+.site-header .container {
+  max-width: 1440px;
 }
 
 .header-inner {
