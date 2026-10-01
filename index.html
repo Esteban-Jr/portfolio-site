@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nova Web Studio — Websites for Small Businesses</title>
-  <meta name="description" content="I design and build fast, modern websites for small businesses and brands — landing pages, business sites, and redesigns." />
+  <title data-i18n="meta.title">Conecta2 — Sitios web para pequeños negocios</title>
+  <meta name="description" data-i18n="meta.description" data-i18n-attr="content" content="Diseño y desarrollo sitios web rápidos y modernos para pequeños negocios y marcas — páginas de aterrizaje, sitios corporativos y rediseños." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
@@ -14,19 +14,23 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#top" class="logo">Nova<span>.</span></a>
+      <a href="#top" class="logo">Conecta<span>2</span></a>
 
-      <nav class="main-nav" id="main-nav">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#process">Process</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Get in touch</a>
-      </nav>
+      <div class="header-right">
+        <nav class="main-nav" id="main-nav">
+          <a href="#services" data-i18n="nav.services">Servicios</a>
+          <a href="#work" data-i18n="nav.work">Trabajos</a>
+          <a href="#process" data-i18n="nav.process">Proceso</a>
+          <a href="#about" data-i18n="nav.about">Nosotros</a>
+          <a href="#contact" class="nav-cta" data-i18n="nav.contact">Contáctame</a>
+        </nav>
 
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch to English">EN</button>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -34,104 +38,107 @@
 
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow fade-in">Web design & development</p>
-        <h1 class="fade-in">Websites that make your business look as good as it actually is.</h1>
-        <p class="hero-sub fade-in">
-          I design and build fast, modern websites for small businesses and brands —
-          from single-page landing sites to full multi-page builds. No templates,
-          no bloat, no waiting three months.
+        <p class="eyebrow fade-in" data-i18n="hero.eyebrow">Diseño y desarrollo web</p>
+        <h1 class="fade-in" data-i18n="hero.title">Sitios web que hacen que tu negocio se vea tan bien como realmente es.</h1>
+        <p class="hero-sub fade-in" data-i18n="hero.sub">
+          Diseño y construyo sitios web rápidos y modernos para pequeños negocios y marcas —
+          desde páginas de aterrizaje de una sola página hasta sitios completos de varias páginas.
+          Sin plantillas, sin relleno, sin esperar tres meses.
         </p>
         <div class="hero-actions fade-in">
-          <a href="#work" class="btn btn-primary">See the work</a>
-          <a href="#contact" class="btn btn-ghost">Start a project</a>
+          <a href="#work" class="btn btn-primary" data-i18n="hero.ctaWork">Ver el trabajo</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.ctaStart">Empezar un proyecto</a>
         </div>
       </div>
     </section>
 
     <section class="strip">
       <div class="container strip-inner">
-        <span>Landing pages</span>
-        <span>Business websites</span>
-        <span>Site redesigns</span>
-        <span>Mobile-first</span>
-        <span>SEO basics included</span>
+        <span data-i18n="strip.landing">Páginas de aterrizaje</span>
+        <span data-i18n="strip.business">Sitios corporativos</span>
+        <span data-i18n="strip.redesign">Rediseños de sitios</span>
+        <span data-i18n="strip.mobile">Enfoque mobile-first</span>
+        <span data-i18n="strip.seo">SEO básico incluido</span>
       </div>
     </section>
 
     <section class="section" id="services">
       <div class="container">
-        <h2 class="section-title fade-in">Services</h2>
-        <p class="section-sub fade-in">Three ways to work together, depending on where your business is right now.</p>
+        <h2 class="section-title fade-in" data-i18n="services.title">Servicios</h2>
+        <p class="section-sub fade-in" data-i18n="services.sub">Tres formas de trabajar juntos, según en qué etapa esté tu negocio.</p>
 
         <div class="card-grid">
           <article class="card fade-in">
-            <h3>Landing Page</h3>
-            <p>A focused, single-page site built to convert visitors into customers. Perfect for launches, campaigns, or a simple online presence.</p>
-            <ul class="card-list">
-              <li>Custom design, not a template</li>
-              <li>Mobile responsive</li>
-              <li>Contact form built in</li>
-              <li>Delivered in 1–2 weeks</li>
+            <h3 data-i18n="services.landing.name">Página de aterrizaje</h3>
+            <p data-i18n="services.landing.desc">Un sitio enfocado de una sola página, diseñado para convertir visitantes en clientes. Perfecto para lanzamientos, campañas o una presencia simple en línea.</p>
+            <ul class="card-list" data-i18n="services.landing.list">
+              <li>Diseño personalizado, no una plantilla</li>
+              <li>Adaptado a móviles</li>
+              <li>Formulario de contacto incluido</li>
+              <li>Entrega en 1–2 semanas</li>
             </ul>
           </article>
 
           <article class="card fade-in">
-            <h3>Business Website</h3>
-            <p>A full multi-page site — home, about, services, contact, and more. Built to represent your brand and get found on Google.</p>
-            <ul class="card-list">
-              <li>Up to 5 pages</li>
-              <li>Basic on-page SEO</li>
-              <li>Mobile responsive</li>
-              <li>Delivered in 2–4 weeks</li>
+            <h3 data-i18n="services.business.name">Sitio web corporativo</h3>
+            <p data-i18n="services.business.desc">Un sitio completo de varias páginas — inicio, nosotros, servicios, contacto y más. Diseñado para representar tu marca y que te encuentren en Google.</p>
+            <ul class="card-list" data-i18n="services.business.list">
+              <li>Hasta 5 páginas</li>
+              <li>SEO básico en la página</li>
+              <li>Adaptado a móviles</li>
+              <li>Entrega en 2–4 semanas</li>
             </ul>
           </article>
 
           <article class="card fade-in">
-            <h3>Website Refresh</h3>
-            <p>Already have a site but it feels outdated or isn't converting? I'll redesign and rebuild it with modern design and better performance.</p>
-            <ul class="card-list">
-              <li>Full redesign, your content</li>
-              <li>Performance & SEO audit</li>
-              <li>Mobile responsive</li>
-              <li>Delivered in 2–3 weeks</li>
+            <h3 data-i18n="services.refresh.name">Renovación de sitio web</h3>
+            <p data-i18n="services.refresh.desc">¿Ya tienes un sitio pero se siente anticuado o no está convirtiendo? Lo rediseño y reconstruyo con un diseño moderno y mejor rendimiento.</p>
+            <ul class="card-list" data-i18n="services.refresh.list">
+              <li>Rediseño completo, tu contenido</li>
+              <li>Auditoría de rendimiento y SEO</li>
+              <li>Adaptado a móviles</li>
+              <li>Entrega en 2–3 semanas</li>
             </ul>
           </article>
         </div>
 
-        <p class="section-note fade-in">Every project includes mobile-first design, basic on-page SEO, and a short walkthrough so you can update the site yourself. Pricing is tailored to each project — <a href="#contact">get in touch</a> for a personalized quote.</p>
+        <p class="section-note fade-in">
+          <span data-i18n="services.note">Cada proyecto incluye diseño mobile-first, SEO básico y una breve guía para que puedas actualizar el sitio tú mismo.</span>
+          <a href="#contact" data-i18n="services.noteCta">Contáctame para una cotización personalizada.</a>
+        </p>
       </div>
     </section>
 
     <section class="section section-alt" id="work">
       <div class="container">
-        <h2 class="section-title fade-in">Selected work</h2>
-        <p class="section-sub fade-in"><em>Concept projects shown below — real client work coming soon.</em></p>
+        <h2 class="section-title fade-in" data-i18n="work.title">Trabajos seleccionados</h2>
+        <p class="section-sub fade-in"><em data-i18n="work.sub">Proyectos conceptuales mostrados a continuación — trabajo real con clientes próximamente.</em></p>
 
         <div class="work-grid">
           <article class="work-card fade-in">
             <div class="work-thumb thumb-a" aria-hidden="true"></div>
             <div class="work-body">
-              <p class="work-tag">Landing page concept</p>
-              <h3>Local bakery launch site</h3>
-              <p>A single-page site built around one goal: get people to walk in the door. Menu highlights, hours, and a map front and center.</p>
+              <p class="work-tag" data-i18n="work.a.tag">Concepto de página de aterrizaje</p>
+              <h3 data-i18n="work.a.title">Sitio de lanzamiento para panadería local</h3>
+              <p data-i18n="work.a.desc">Un sitio de una sola página construido en torno a un objetivo: lograr que la gente entre por la puerta. Destacados del menú, horarios y un mapa en primer plano.</p>
             </div>
           </article>
 
           <article class="work-card fade-in">
             <div class="work-thumb thumb-b" aria-hidden="true"></div>
             <div class="work-body">
-              <p class="work-tag">Business site concept</p>
-              <h3>Independent fitness coach</h3>
-              <p>A 5-page site with booking info, program details, and a clear path from "just looking" to "signed up."</p>
+              <p class="work-tag" data-i18n="work.b.tag">Concepto de sitio corporativo</p>
+              <h3 data-i18n="work.b.title">Entrenador de fitness independiente</h3>
+              <p data-i18n="work.b.desc">Un sitio de 5 páginas con información de reservas, detalles del programa y un camino claro desde "solo estoy mirando" hasta "ya me inscribí".</p>
             </div>
           </article>
 
           <article class="work-card fade-in">
             <div class="work-thumb thumb-c" aria-hidden="true"></div>
             <div class="work-body">
-              <p class="work-tag">Redesign concept</p>
-              <h3>Boutique store refresh</h3>
-              <p>A dated, slow site rebuilt for speed and mobile shoppers, with the same content and a much clearer layout.</p>
+              <p class="work-tag" data-i18n="work.c.tag">Concepto de rediseño</p>
+              <h3 data-i18n="work.c.title">Renovación de tienda boutique</h3>
+              <p data-i18n="work.c.desc">Un sitio anticuado y lento reconstruido para velocidad y compradores móviles, con el mismo contenido y un diseño mucho más claro.</p>
             </div>
           </article>
         </div>
@@ -140,36 +147,36 @@
 
     <section class="section" id="process">
       <div class="container">
-        <h2 class="section-title fade-in">How it works</h2>
-        <p class="section-sub fade-in">Same process every time, so there are no surprises.</p>
+        <h2 class="section-title fade-in" data-i18n="process.title">Cómo funciona</h2>
+        <p class="section-sub fade-in" data-i18n="process.sub">El mismo proceso cada vez, para que no haya sorpresas.</p>
 
         <ol class="process-list">
           <li class="fade-in">
             <span class="process-num">01</span>
             <div>
-              <h3>Discover</h3>
-              <p>A short call to talk through your business, goals, and what the site needs to do for you.</p>
+              <h3 data-i18n="process.discover.title">Descubrir</h3>
+              <p data-i18n="process.discover.desc">Una llamada breve para hablar sobre tu negocio, tus objetivos y lo que el sitio necesita hacer por ti.</p>
             </div>
           </li>
           <li class="fade-in">
             <span class="process-num">02</span>
             <div>
-              <h3>Design</h3>
-              <p>I put together a design direction for your review before any code is written, so there's no guessing.</p>
+              <h3 data-i18n="process.design.title">Diseñar</h3>
+              <p data-i18n="process.design.desc">Preparo una dirección de diseño para que la revises antes de escribir una sola línea de código, para que no haya que adivinar.</p>
             </div>
           </li>
           <li class="fade-in">
             <span class="process-num">03</span>
             <div>
-              <h3>Build</h3>
-              <p>The site gets built, tested on real devices, and checked for speed and SEO basics.</p>
+              <h3 data-i18n="process.build.title">Construir</h3>
+              <p data-i18n="process.build.desc">El sitio se construye, se prueba en dispositivos reales y se revisa en cuanto a velocidad y SEO básico.</p>
             </div>
           </li>
           <li class="fade-in">
             <span class="process-num">04</span>
             <div>
-              <h3>Launch & support</h3>
-              <p>I handle the launch and walk you through how to make simple updates yourself going forward.</p>
+              <h3 data-i18n="process.launch.title">Lanzamiento y soporte</h3>
+              <p data-i18n="process.launch.desc">Me encargo del lanzamiento y te explico cómo hacer actualizaciones simples tú mismo de ahí en adelante.</p>
             </div>
           </li>
         </ol>
@@ -179,16 +186,16 @@
     <section class="section section-alt" id="about">
       <div class="container about-grid">
         <div class="fade-in">
-          <h2 class="section-title">About</h2>
-          <p>
-            Hi, I'm [Your Name] — I design and build websites for small businesses
-            and independent brands. I care about sites that load fast, look sharp
-            on a phone, and actually help you get customers, not just look nice
-            in a portfolio.
+          <h2 class="section-title" data-i18n="about.title">Nosotros</h2>
+          <p data-i18n="about.p1">
+            Hola, soy [Tu Nombre] — diseño y construyo sitios web para pequeños negocios
+            y marcas independientes. Me importa que los sitios carguen rápido, se vean bien
+            en el teléfono y realmente te ayuden a conseguir clientes, no solo lucir bien
+            en un portafolio.
           </p>
-          <p>
-            [Add a sentence or two here about your background, why you started
-            this, or what makes your approach different.]
+          <p data-i18n="about.p2">
+            [Agrega aquí una o dos frases sobre tu experiencia, por qué empezaste esto,
+            o qué hace diferente tu forma de trabajar.]
           </p>
         </div>
       </div>
@@ -196,10 +203,10 @@
 
     <section class="section" id="contact">
       <div class="container contact-inner">
-        <h2 class="section-title fade-in">Let's build something</h2>
-        <p class="section-sub fade-in">Tell me a bit about your business and what you need — I'll get back to you within a day or two.</p>
+        <h2 class="section-title fade-in" data-i18n="contact.title">Construyamos algo juntos</h2>
+        <p class="section-sub fade-in" data-i18n="contact.sub">Cuéntame un poco sobre tu negocio y qué necesitas — te responderé en uno o dos días.</p>
 
-        <a class="btn btn-primary btn-large fade-in" href="mailto:your.email@example.com?subject=New%20project%20inquiry">
+        <a class="btn btn-primary btn-large fade-in" href="mailto:your.email@example.com?subject=Consulta%20de%20nuevo%20proyecto">
           your.email@example.com
         </a>
 
@@ -215,7 +222,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Nova Web Studio</span>
+      <span>Conecta2</span>
       <span id="year"></span>
     </div>
   </footer>
