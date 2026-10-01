@@ -8,10 +8,10 @@ button { font: inherit; border: none; background: none; cursor: pointer; }
 
 /* ---------- Theme tokens ---------- */
 :root {
-  --bg: #f5f8ff;
-  --bg-alt: #ebf0fc;
+  --bg: #fffdf8;
+  --bg-alt: #f6f1e6;
   --surface: #ffffff;
-  --border: #dbe3f5;
+  --border: #e7e0d1;
   --text: #0f1f3d;
   --text-muted: #51607c;
   --accent: #2f9bff;
