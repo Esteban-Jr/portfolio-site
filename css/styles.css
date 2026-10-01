@@ -215,7 +215,13 @@ h1, h2, h3 {
 
 /* ---------- Sections ---------- */
 .section { padding: 96px 0; position: relative; overflow: hidden; }
-.section-alt { background: var(--bg-alt); }
+.section-alt {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--accent) 10%, var(--bg-alt)) 0%,
+    color-mix(in srgb, var(--accent-2) 10%, var(--bg-alt)) 100%
+  );
+}
 
 .section::before {
   content: "";
