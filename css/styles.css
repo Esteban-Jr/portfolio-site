@@ -389,16 +389,6 @@ h1, h2, h3 {
 .contact-inner { text-align: center; }
 .contact-inner .section-sub { margin: 0 auto 40px; }
 
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 28px;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
-.social-links a:hover { color: var(--accent); }
-
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
