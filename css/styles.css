@@ -219,8 +219,7 @@ h1, h2, h3 {
   background: var(--accent-grad);
 }
 .section-alt .section-title,
-.section-alt .section-sub,
-.about-grid p {
+.section-alt .section-sub {
   color: #ffffff;
 }
 
@@ -379,7 +378,7 @@ h1, h2, h3 {
 
 /* ---------- About ---------- */
 .about-grid p {
-  color: var(--text-muted);
+  color: #ffffff;
   max-width: 640px;
   margin-bottom: 16px;
   font-size: 1.05rem;
