@@ -59,8 +59,8 @@ Hosted via **GitHub Pages**, serving directly from the `main` branch root. Pushi
 ## Still to customize
 
 - [ ] Pick a final business name/logo (currently "Conecta2" as a placeholder)
-- [ ] Replace the contact email (`estebangonzalezjr07@gmail.com`, a personal address used as a temporary stand-in) once a business email exists
-- [ ] Consider swapping the `mailto:` contact button for a real form (e.g. Formspree) for more reliable lead capture
+- [ ] Add a real contact email once the business name/email exists — the Contact section currently shows a "coming soon" notice instead of a live `mailto:` link
+- [ ] Consider a real form (e.g. Formspree) instead of a `mailto:` link for more reliable lead capture
 - [ ] Add a real headshot/photo to the About section
 - [ ] Add genuine client testimonials once available — none are shown rather than fabricating any
 - [ ] Re-screenshot `img/work-*.jpg` if the linked live projects get redesigned (they're static snapshots, not live previews)
