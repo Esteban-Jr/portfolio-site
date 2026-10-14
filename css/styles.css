@@ -196,6 +196,14 @@ h1, h2, h3 {
 .btn-ghost:hover { border-color: var(--accent); }
 .btn-large { padding: 16px 32px; font-size: 1.05rem; }
 
+/* ---------- Keyboard focus ---------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 /* ---------- Strip ---------- */
 .strip {
   border-top: 1px solid var(--border);
@@ -420,4 +428,14 @@ h1, h2, h3 {
   .main-nav.is-open { display: flex; }
   .nav-toggle { display: flex; }
   .hero { padding: 96px 0 64px; }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+  .fade-in { opacity: 1; transform: none; }
 }

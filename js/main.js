@@ -42,6 +42,7 @@ const translations = {
     'nav.process': 'Process',
     'nav.about': 'About',
     'nav.contact': 'Get in touch',
+    'nav.menu': 'Toggle menu',
     'hero.eyebrow': 'Web design & development',
     'hero.title': 'Websites that make your business look as good as it actually is.',
     'hero.sub': 'I design and build fast, modern websites for small businesses and brands — from single-page landing sites to full multi-page builds. No templates, no bloat, no waiting three months.',
