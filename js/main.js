@@ -91,8 +91,9 @@ const translations = {
     'about.p1': "Hi, I'm Esteban González — I design and build websites for small businesses and independent brands. I care about sites that load fast, look sharp on a phone, and actually help you get customers, not just look nice in a portfolio.",
     'about.p2': "I work with you directly, no middlemen or unnecessary process — and every project in \"Selected work\" is a real, working site you can visit today, not a mockup.",
     'contact.title': "Let's build something",
-    'contact.sub': "Tell me a bit about your business and what you need — you'll be able to reach me directly very soon.",
-    'contact.pending': 'Contact email coming soon',
+    'contact.sub': "Tell me a bit about your business and what you need — message me on WhatsApp and I'll get back to you as soon as I can.",
+    'contact.whatsapp': 'Message me on WhatsApp',
+    'contact.whatsappHref': 'https://wa.me/447908711065?text=Hi%20Esteban%2C%20I%27m%20interested%20in%20a%20website%20for%20my%20business.',
   },
 };
 

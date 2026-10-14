@@ -388,15 +388,7 @@ h1, h2, h3 {
 .contact-inner { text-align: center; }
 .contact-inner .section-sub { margin: 0 auto 40px; }
 
-.contact-pending {
-  display: inline-block;
-  padding: 13px 26px;
-  border-radius: 10px;
-  border: 1px dashed var(--border);
-  color: var(--text-muted);
-  font-weight: 600;
-  font-size: 0.95rem;
-}
+.btn-whatsapp { gap: 10px; }
 
 /* ---------- Footer ---------- */
 .site-footer {
