@@ -16,7 +16,7 @@ A single-page marketing site for a freelance web design business.
 
 ## Overview
 
-Service breakdown, a real project portfolio, a process walkthrough, and a contact section — built as a fast, dependency-free static site with no framework or build tooling.
+Service breakdown, a portfolio of working demo projects, a process walkthrough, and a contact section — built as a fast, dependency-free static site with no framework or build tooling.
 
 | | |
 |---|---|
@@ -49,7 +49,7 @@ No dependencies, no package manager, no build step. Open `index.html` directly i
   - Mobile nav open/close
   - An `IntersectionObserver` that fades in `.fade-in` elements as they scroll into view
   - The footer's copyright year
-- **Work section** — each card links directly to a live, real project (not a mockup) and opens it in a new tab. Thumbnails are static screenshots stored in `img/`, not live embeds (the linked sites send `X-Frame-Options: DENY`, so iframes wouldn't render) — on hover, the image zooms slightly and the card lifts.
+- **Work section** — each card links to a live, working demo or personal project (not a client site, and labeled as such) and opens it in a new tab, with a short "what I built" line. Thumbnails are static screenshots stored in `img/`, not live embeds (the linked sites send `X-Frame-Options: DENY`, so iframes wouldn't render) — on hover, the image zooms slightly and the card lifts.
 - **Fonts** — Google Fonts (`Inter` for body text, `Space Grotesk` for headings).
 
 ## Deployment

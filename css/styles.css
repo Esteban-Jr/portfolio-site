@@ -353,6 +353,8 @@ button:focus-visible {
 }
 .work-body h3 { font-size: 1.1rem; margin-bottom: 8px; }
 .work-body p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 14px; }
+.work-body .work-built { color: var(--text); font-size: 0.86rem; }
+.work-built strong { font-weight: 600; }
 
 .work-link {
   display: inline-flex;
