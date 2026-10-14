@@ -274,8 +274,14 @@ button:focus-visible {
 /* ---------- Service cards ---------- */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
+}
+@media (min-width: 600px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1040px) {
+  .card-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
 .card {
