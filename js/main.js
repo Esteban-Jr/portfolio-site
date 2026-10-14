@@ -67,7 +67,7 @@ const translations = {
     'services.refresh.list': '<li>Full redesign, your content</li><li>Performance & SEO audit</li><li>Mobile responsive</li><li>Delivered in 2–3 weeks</li>',
     'services.invites.name': 'Digital Invitations',
     'services.invites.desc': 'An interactive web invitation for your wedding, quinceañera, birthday, or any special event — easy to share with all your guests on WhatsApp.',
-    'services.invites.list': '<li>Custom design for your event</li><li>Online RSVP</li><li>Countdown, maps, and music</li><li>Delivered in 1–2 weeks</li>',
+    'services.invites.list': '<li>Custom design for your event</li><li>Online RSVP</li><li>Countdown, maps, and music</li><li>Delivered in 2–3 weeks</li>',
     'services.note': 'Every project includes mobile-first design, basic on-page SEO, and a short walkthrough so you can update the site yourself.',
     'services.noteCta': 'Get in touch for a personalized quote.',
     'work.title': 'Selected work',
