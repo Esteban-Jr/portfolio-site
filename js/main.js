@@ -76,7 +76,7 @@ const translations = {
     'work.aurea.tag': 'Restaurant · Demo',
     'work.aurea.title': 'Aurea — Italian restaurant',
     'work.aurea.desc': 'A fictional Italian restaurant, built to show everything a restaurant website can do.',
-    'work.aurea.built': '<strong>What I built:</strong> menu, gallery, reviews, FAQ, and online bookings with user accounts.',
+    'work.aurea.built': '<strong>What I built:</strong> a bilingual site (Spanish/English), a menu with a card for every dish, gallery, reviews, online bookings with user accounts, and a staff panel to manage the menu and bookings.',
     'work.sportsmode.tag': 'Online store · Demo',
     'work.sportsmode.title': 'SportsMode — Premium sports equipment',
     'work.sportsmode.desc': 'A fictional sports equipment shop, built as a demo of a complete online store.',
