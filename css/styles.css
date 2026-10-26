@@ -324,6 +324,10 @@ button:focus-visible {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
 }
+/* Four projects: two by two on wider screens instead of 3 + 1 */
+@media (min-width: 700px) {
+  .work-grid { grid-template-columns: repeat(2, 1fr); }
+}
 
 .work-card {
   background: var(--surface);
@@ -335,7 +339,7 @@ button:focus-visible {
 .work-card:hover { transform: translateY(-4px); }
 
 .work-thumb {
-  height: 180px;
+  aspect-ratio: 2 / 1;   /* same shape as the 900×450 screenshots, so nothing is cut off */
   overflow: hidden;
   background: var(--bg-alt);
 }
